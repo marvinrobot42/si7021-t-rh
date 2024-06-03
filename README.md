@@ -32,6 +32,7 @@ Developed using Adafruit Si7021 STEMMA QT (QWIIC) model: https://www.adafruit.co
 
 ### Recent version history
 
+  - 0.1.2  Fixed repo name (whoops it is s17021-t-rh instead of si7021)
   - 0.1.1  Fixed README.md
   - 0.1.0  Initial release
 

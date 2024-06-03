@@ -4,7 +4,7 @@ version = "0.1.1"
 edition = "2021"
 
 authors = ["fordauthor42@gmail.com"]
-repository = "https://github.com/marvinrobot42/s17021-t-rh.git"
+repository = "https://github.com/marvinrobot42/si7021-t-rh.git"
 description = "Silicon Labs Si7013, Si7020, Si7021 driver"
 documentation = "https://docs.rs/si7021-t-rh"
 
