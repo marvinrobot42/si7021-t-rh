@@ -1,5 +1,6 @@
 // Si7021 registers
 
+#![allow(nonstandard_style)]
 pub const Si7021_READ_RH_HOLD: u8 = 0xE5;  // Measure Relative Humidity, Hold Master Mode 
 pub const Si7021_READ_RH_NO_HOLD: u8 = 0xF5;  // Measure Relative Humidity, No Hold Master Mode
 pub const Si7021_READ_TEMP_HOLD: u8 = 0xE3;  // Measure Temperature, Hold Master Mode

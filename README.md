@@ -15,6 +15,7 @@ All I2C API functions are implemented.
 ### Features
 
 - uses embedded-hal version 1.0.x
+- async support included (see examples folder in repository for embassy-async ESP32-C6 example)
 - designed for embedded use (ESP32-C3, -C6 and -S3 and Raspberry Pi)
 - ESP32 RISC V and Raspberry Pi examples included
 - enable/disable builtin heater for clearing condensation or frost (when not reading temperature)
@@ -31,6 +32,7 @@ Developed using Adafruit Si7021 STEMMA QT (QWIIC) model: https://www.adafruit.co
 
 
 ### Recent version history
+  - 0.1.4  Added async support, cleaned out compiler warnings
   - 0.1.3  Updated README.md
   - 0.1.2  Fixed repo name (whoops it is s17021-t-rh instead of si7021)
   - 0.1.1  Fixed README.md
@@ -95,6 +97,9 @@ fn main() -> Result<()> {
 }
     
 ~~~~
+
+### For async set si7021-t-rh dependency features = ["async"] and Si7021::new method requires async I2C and delay 
+###    parameters.  Default features is sync (blocking)
 
 
 ### License

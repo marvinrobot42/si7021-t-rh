@@ -1,7 +1,7 @@
-use core::fmt::Formatter;
+// use core::fmt::Formatter;
 
 // use embedded_hal::i2c::{I2c, SevenBitAddress};
-use embedded_hal::i2c::{Error as I2cError, ErrorKind as I2cErrorKind};
+// use embedded_hal::i2c::{Error as I2cError, ErrorKind as I2cErrorKind};
 
 /// All possible errors
 /// Display not implemented for no_std support
