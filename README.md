@@ -32,6 +32,7 @@ Developed using Adafruit Si7021 STEMMA QT (QWIIC) model: https://www.adafruit.co
 
 
 ### Recent version history
+  - 0.1.5  Fixed messed up Cargo.toml file
   - 0.1.4  Added async support, cleaned out compiler warnings
   - 0.1.3  Updated README.md
   - 0.1.2  Fixed repo name (whoops it is s17021-t-rh instead of si7021)
