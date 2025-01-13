@@ -1,6 +1,6 @@
 [package]
 name = "si7021-t-rh"
-version = "0.1.6"
+version = "0.1.7"
 edition = "2021"
 
 authors = ["fordauthor42@gmail.com"]
@@ -27,7 +27,7 @@ sync = []
 async = ["embedded-hal-async"]
 
 [dependencies]
-log = { version = "0.4.18", default-features = false }
+log = { version = "0.4.22", default-features = false }
 embedded-hal = {version = "1.0"}
 embedded-hal-async = { version = "1.0", optional = true }
 maybe-async-cfg = "0.2"
