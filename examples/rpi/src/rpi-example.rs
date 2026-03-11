@@ -7,7 +7,7 @@ use std::thread;
 use std::time::Duration;
 
 use env_logger::Builder;
-use log::{LevelFilter, error, info};
+use log::{LevelFilter, info};
 use std::io::Write;
 
 fn main() -> Result<()> {
@@ -38,7 +38,7 @@ fn main() -> Result<()> {
 
     let temperature: f32 = my_si7021.read_temperature().unwrap();
     info!("temperature is {}", temperature);
-    FreeRtos::delay_ms(50);
+    thread::sleep(Duration::from_secs(2));
 
 
 

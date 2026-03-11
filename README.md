@@ -32,6 +32,7 @@ Developed using Adafruit Si7021 STEMMA QT (QWIIC) model: https://www.adafruit.co
 
 
 ### Recent version history
+  - 0.1.8  Fixed RPi example
   - 0.1.7  Updated dependencies
   - 0.1.6  Updated Cargo.toml
   - 0.1.5  Fixed messed up Cargo.toml file
@@ -55,8 +56,8 @@ version = "0.1"
 1. Create a hardward specific I²C driver interface and delay function
 2. Create an Si7021 struct with the I²C interface and a delay function as parameters.  
 3. Initialize the Si7021 instance
-4.a Read relative humidity
-4.b Read temperature or
+4. Read relative humidity
+4.1 -  Read temperature or
 5. Call read_measurements() fn which return both relative humdity and temperature faster than
   call the seperate methods due to Si70xx "Read Temperature Value from Previous RH Measurement function" 
  
