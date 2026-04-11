@@ -1,6 +1,6 @@
 [package]
 name = "si7021-t-rh"
-version = "0.1.8"
+version = "0.1.9"
 edition = "2021"
 
 authors = ["fordauthor42@gmail.com"]

@@ -32,6 +32,7 @@ Developed using Adafruit Si7021 STEMMA QT (QWIIC) model: https://www.adafruit.co
 
 
 ### Recent version history
+  - 0.1.9  Fixed issue with embassy-rp and I2C usage
   - 0.1.8  Fixed RPi example
   - 0.1.7  Updated dependencies
   - 0.1.6  Updated Cargo.toml
