@@ -50,7 +50,7 @@ fn main() -> Result<()> {
     let sda = pins.gpio6; // esp32-c3  has pins.gpio0 , check your board schematic
     let scl = pins.gpio7; // esp32-c3  haspins.gpio1, check your board schematic
     let i2c = peripherals.i2c0;
-    let config = I2cConfig::new().baudrate(400.kHz().into());
+    let config = I2cConfig::new().baudrate(100.kHz().into());
     let i2c_bus = I2cDriver::new(i2c, sda, scl, &config)?;
     
     let mut led_pin23 = PinDriver::output(pins.gpio23).unwrap();  // check your board schematic for LED pin #

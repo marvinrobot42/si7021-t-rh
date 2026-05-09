@@ -77,7 +77,7 @@ async fn main(_spawner: Spawner) {
         peripherals.I2C0,
         io.pins.gpio6,   // ESP32-c6 mini
         io.pins.gpio7,   // ESP32-c6 mini
-        400.kHz(),
+        100.kHz(),
         &clocks,
     );
 

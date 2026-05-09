@@ -30,8 +30,13 @@ All I2C API functions are implemented.
 
 Developed using Adafruit Si7021 STEMMA QT (QWIIC) model: https://www.adafruit.com/product/3251
 
+Some Si7021 appear to have unreliable I2C communications at 400 kHz.  100 kHz seems reliable.  The 
+datasheet states max I2C speed of 400 kHz.  Test/development board has a 5 cm long I2C cable which 
+should work at 400 kHz but results were not 100% reliable.
+
 
 ### Recent version history
+  - 0.1.10 Adjusted examples for 100 kHz I2C speed
   - 0.1.9  Fixed issue with embassy-rp and I2C usage
   - 0.1.8  Fixed RPi example
   - 0.1.7  Updated dependencies
